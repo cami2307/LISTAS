@@ -17,18 +17,18 @@ instructor = input("Ingresa el nombre del instructor: ")
 aprendices.insert(1, instructor)
 
 count18 = edades.count(18)
-print("Número de aprendices que tienen 18 años:", count18)
+print("Número de aprendices que tienen 18 anos:", count18)
 
-aprendizX = input("Ingresa el nombre del aprendiz x: ")
-aprendices.append(aprendizX)
+aprendizNuevo = input("Ingresa el nombre de un aprendiz nuevo: ")
+aprendices.append(aprendizNuevo)
 
 aprendices.remove(instructor)
 
 datoBuscar = input("Ingresa un dato para buscar en la lista de aprendices: ")
 if datoBuscar in aprendices:
-    print(datoBuscar, "está presente en la lista.")
+    print(datoBuscar, "esta presente en la lista.")
 else:
-    print(datoBuscar, "no está presente en la lista.")
+    print(datoBuscar, "no esta presente en la lista.")
 
 print("Primeros 10 aprendices:", aprendices[:10])
 
@@ -36,5 +36,5 @@ print("Primeros 10 aprendices:", aprendices[:10])
 print("Últimos 10 aprendices:", aprendices[-10:])
 
 
-elementosMuestra = aprendices[9:19]
+elementosMuestra = aprendices[9:20]
 print("Elementos del 10 al 20:", elementosMuestra)
